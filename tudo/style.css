@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b00c7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 1500px;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #09ff00e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+#mensagem {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#textoAlterado {
+    color: rgb(255, 217, 0);
+    font-style: italic;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    background-image: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBMwf9O52X7BFLxVYBJwj-fKJrCCHS9Em6Q_EDj12kI2lHVIwpGoC1TalRXdxmJTGmKzOSzqAxQwuzsEN24KGvGvT7enYt2JRzPD3us9iEKI-Mw=w1600-h789');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
